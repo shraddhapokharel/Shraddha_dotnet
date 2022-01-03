@@ -1,29 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Apexrestaurant\\ApexRestaurant.Services\\ApexRestaurant.Services.csproj": {}
+    "D:\\ApexRestaurant\\ApexRestaurant.Services\\ApexRestaurant.Services.csproj": {}
   },
   "projects": {
-    "D:\\Apexrestaurant\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj": {
+    "D:\\ApexRestaurant\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Apexrestaurant\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj",
+        "projectUniqueName": "D:\\ApexRestaurant\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj",
         "projectName": "ApexRestaurant.Repository",
-        "projectPath": "D:\\Apexrestaurant\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj",
+        "projectPath": "D:\\ApexRestaurant\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\Apexrestaurant\\ApexRestaurant.Repository\\obj\\",
+        "outputPath": "D:\\ApexRestaurant\\ApexRestaurant.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -34,13 +34,19 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netcoreapp3.1": {
           "dependencies": {
-            "NETStandard.Library": {
-              "suppressParent": "All",
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
             }
           },
           "imports": [
@@ -53,33 +59,38 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.414\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Apexrestaurant\\ApexRestaurant.Services\\ApexRestaurant.Services.csproj": {
+    "D:\\ApexRestaurant\\ApexRestaurant.Services\\ApexRestaurant.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Apexrestaurant\\ApexRestaurant.Services\\ApexRestaurant.Services.csproj",
+        "projectUniqueName": "D:\\ApexRestaurant\\ApexRestaurant.Services\\ApexRestaurant.Services.csproj",
         "projectName": "ApexRestaurant.Services",
-        "projectPath": "D:\\Apexrestaurant\\ApexRestaurant.Services\\ApexRestaurant.Services.csproj",
+        "projectPath": "D:\\ApexRestaurant\\ApexRestaurant.Services\\ApexRestaurant.Services.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\Apexrestaurant\\ApexRestaurant.Services\\obj\\",
+        "outputPath": "D:\\ApexRestaurant\\ApexRestaurant.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Apexrestaurant\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj": {
-                "projectPath": "D:\\Apexrestaurant\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj"
+              "D:\\ApexRestaurant\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj": {
+                "projectPath": "D:\\ApexRestaurant\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj"
               }
             }
           }
@@ -91,15 +102,7 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
-          "dependencies": {
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
-            }
-          },
+        "netcoreapp3.1": {
           "imports": [
             "net461",
             "net462",
@@ -110,6 +113,11 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.414\\RuntimeIdentifierGraph.json"
         }
       }
