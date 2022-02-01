@@ -435,7 +435,7 @@
           "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {}
         }
       },
-      "Newtonsoft.Json/12.0.2": {
+      "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
@@ -581,6 +581,15 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.Net.Http.Formatting.dll/5.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/System.Net.Http.Formatting.dll": {}
         }
       },
       "System.Text.Json/4.7.2": {
@@ -1301,10 +1310,10 @@
         "microsoft.extensions.primitives.nuspec"
       ]
     },
-    "Newtonsoft.Json/12.0.2": {
-      "sha512": "rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
       "type": "package",
-      "path": "newtonsoft.json/12.0.2",
+      "path": "newtonsoft.json/13.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1323,12 +1332,9 @@
         "lib/netstandard1.3/Newtonsoft.Json.xml",
         "lib/netstandard2.0/Newtonsoft.Json.dll",
         "lib/netstandard2.0/Newtonsoft.Json.xml",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.12.0.2.nupkg.sha512",
-        "newtonsoft.json.nuspec"
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "SQLitePCLRaw.bundle_e_sqlite3/2.0.4": {
@@ -1566,6 +1572,19 @@
         "version.txt"
       ]
     },
+    "System.Net.Http.Formatting.dll/5.2.3": {
+      "sha512": "N4Cx+3N/68W6msEZhCchYbhtVKRUYokaEhXwW/l8y3VlePZ1LdRipLIKT1NRQoa2kqBFpw4Wg+nP2NBr3JqPAQ==",
+      "type": "package",
+      "path": "system.net.http.formatting.dll/5.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/System.Net.Http.Formatting.xml",
+        "lib/System.Net.Http.Formatting.dll",
+        "system.net.http.formatting.dll.5.2.3.nupkg.sha512",
+        "system.net.http.formatting.dll.nuspec"
+      ]
+    },
     "System.Text.Json/4.7.2": {
       "sha512": "TcMd95wcrubm9nHvJEQs70rC0H/8omiSGGpU4FQ/ZA1URIqD4pjmFJh2Mfv1yH1eHgJDWTi2hMDXwTET+zOOyg==",
       "type": "package",
@@ -1595,7 +1614,9 @@
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.20",
       "Microsoft.AspNetCore.Identity.UI >= 3.1.20",
       "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.20",
-      "Microsoft.EntityFrameworkCore.Tools >= 3.1.20"
+      "Microsoft.EntityFrameworkCore.Tools >= 3.1.20",
+      "Newtonsoft.Json >= 13.0.1",
+      "System.Net.Http.Formatting.dll >= 5.2.3"
     ]
   },
   "packageFolders": {
@@ -1604,11 +1625,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Apexrestaurant\\ApexRestaurant.Mvc\\ApexRestaurant.Mvc.csproj",
+      "projectUniqueName": "D:\\ApexRestaurant\\ApexRestaurant.Mvc\\ApexRestaurant.Mvc.csproj",
       "projectName": "ApexRestaurant.Mvc",
-      "projectPath": "D:\\Apexrestaurant\\ApexRestaurant.Mvc\\ApexRestaurant.Mvc.csproj",
+      "projectPath": "D:\\ApexRestaurant\\ApexRestaurant.Mvc\\ApexRestaurant.Mvc.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\Apexrestaurant\\ApexRestaurant.Mvc\\obj\\",
+      "outputPath": "D:\\ApexRestaurant\\ApexRestaurant.Mvc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1652,6 +1673,14 @@
           "Microsoft.EntityFrameworkCore.Tools": {
             "target": "Package",
             "version": "[3.1.20, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          },
+          "System.Net.Http.Formatting.dll": {
+            "target": "Package",
+            "version": "[5.2.3, )"
           }
         },
         "imports": [
@@ -1675,5 +1704,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.414\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Net.Http.Formatting.dll 5.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Net.Http.Formatting.dll",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

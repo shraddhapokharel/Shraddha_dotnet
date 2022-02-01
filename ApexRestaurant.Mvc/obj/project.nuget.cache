@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YMymLNPw2ZqusUKGLJtnt4vevugBRL1XhnJ61quX/SDjPk0u/DGnYpHZfV8K58ZDMZ0qCgK6xFp4RpPcsSWADQ==",
+  "dgSpecHash": "pf7bKm9spl9VOi05OtWW9drOQqhz0QfjKjiBU2BfSMZz9L2CDdkhR7GA1ooL0eUizJmL4ZGPvrrgafoMzTNmNw==",
   "success": true,
   "projectFilePath": "D:\\ApexRestaurant\\ApexRestaurant.Mvc\\ApexRestaurant.Mvc.csproj",
   "expectedPackageFiles": [
@@ -38,7 +38,7 @@
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.20\\microsoft.extensions.logging.abstractions.3.1.20.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.options\\3.1.20\\microsoft.extensions.options.3.1.20.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.20\\microsoft.extensions.primitives.3.1.20.nupkg.sha512",
-    "C:\\Users\\DELL\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.4\\sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.4\\sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
@@ -47,7 +47,19 @@
     "C:\\Users\\DELL\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\system.net.http.formatting.dll\\5.2.3\\system.net.http.formatting.dll.5.2.3.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Net.Http.Formatting.dll 5.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Net.Http.Formatting.dll",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

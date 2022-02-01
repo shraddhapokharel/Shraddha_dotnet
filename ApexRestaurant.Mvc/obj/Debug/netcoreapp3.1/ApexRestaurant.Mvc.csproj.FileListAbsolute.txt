@@ -93,3 +93,7 @@ D:\ApexRestaurant\ApexRestaurant.Mvc\obj\Debug\netcoreapp3.1\staticwebassets\Ape
 D:\ApexRestaurant\ApexRestaurant.Mvc\obj\Debug\netcoreapp3.1\ApexRestaurant.Mvc.dll
 D:\ApexRestaurant\ApexRestaurant.Mvc\obj\Debug\netcoreapp3.1\ApexRestaurant.Mvc.pdb
 D:\ApexRestaurant\ApexRestaurant.Mvc\obj\Debug\netcoreapp3.1\ApexRestaurant.Mvc.genruntimeconfig.cache
+D:\ApexRestaurant\ApexRestaurant.Mvc\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+D:\ApexRestaurant\ApexRestaurant.Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Create.cshtml.g.cs
+D:\ApexRestaurant\ApexRestaurant.Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Edit.cshtml.g.cs
+D:\ApexRestaurant\ApexRestaurant.Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Index.cshtml.g.cs
